@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+ul{
+    background-color: #252525;
+    display: flex;
+    color: whitesmoke;
+    padding: 25px;
+    font-weight: 700;
+    list-style-type: none;
+    margin-top: 0;
+}
+.logo{
+    margin-top: 2px;
+    font-size: 18px;
+}
+.icon{
+    width: 25px;
+    margin-left: 5px;
+}
+.burger-parent{
+    margin: auto 0 auto auto;
+}
+.burger{
+    width: 25px;
+    cursor: pointer;
+}
+h1{
+    font-size: 18px;
+}
+.item-img{
+    width: 100%;
+    display: block;
+}
+.item{
+    position: relative;
+}
+.banner{
+    position: absolute;
+    top: 0;
+    bottom: auto;
+    background-color: tomato;
+    color: whitesmoke;
+    padding: 10px;
+    margin: auto;
+}
+.caption{
+    display: flex;
+    justify-content: space-between;
+}
+.caption p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+button{
+    background-color:tomato;
+    border: none;
+    color: whitesmoke;
+    padding: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: auto 10px auto auto;
+    align-self: center;
+}
+.chat-box{
+    background-color:rgb(255, 157, 0, 0.8);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: fixed;
+    top: auto;
+    bottom: 5px;
+    left: auto;
+    right: 5px;
+    box-shadow: 0 0 6px #2f3e2c;
+    cursor: pointer;
+}
+.message-icon{
+    position: absolute;
+    width: 30px;
+    bottom: 5px;
+    left: 4.5px;
+}
